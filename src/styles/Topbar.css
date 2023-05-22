@@ -62,6 +62,11 @@
   cursor: pointer;
 }
 
+.outlet {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
 /* ======= */
 /* SIDEBAR */
 /* ======= */
@@ -71,9 +76,7 @@
 }
 
 .sidebar {
-  height: calc(100vh - 60px);
-  width: 200px;
-  flex: 1;
+  /* height: calc(100vh - 60px); */
   background-color: rgb(251, 251, 251);
   position: sticky;
   top: 50px;

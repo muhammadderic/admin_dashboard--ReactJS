@@ -41,8 +41,10 @@ export default function Topbar() {
           </div>
         </div>
       </div>
-      <Sidebar />
-      <Outlet />
+      <div className="outlet">
+        <Sidebar />
+        <Outlet />
+      </div>
     </>
   )
 }
