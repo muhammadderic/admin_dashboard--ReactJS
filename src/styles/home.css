@@ -73,3 +73,68 @@
   -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 }
+
+/* ============ */
+/* WIDGET SMALL */
+/* ============ */
+.widgetSmall {
+  margin-right: 20px;
+  padding: 20px;
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widgetSmallTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.widgetSmallImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widgetSmallList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.widgetSmallItem {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.widgetSmallUser {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetSmallUserName {
+  font-weight: 600;
+}
+
+.widgetSmallUserJob {
+  font-weight: 300;
+}
+
+.widgetSmallButton {
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  background-color: #eeeef7;
+  color: #555;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.widgetSmallButton .Icon {
+  margin-right: 5px;
+  font-size: 16px !important;
+}
