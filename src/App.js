@@ -1,8 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Topbar from "./components/Topbar";
 
 function App() {
   return (
-    <Topbar />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Topbar />}>
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
