@@ -3,13 +3,17 @@ import Chart from "../components/Chart";
 import WidgetSmall from "../components/WidgetSmall";
 import { userData } from "../dummyData";
 import "../styles/home.css";
+import WidgetLarge from "../components/WidgetLarge";
 
 export default function Home() {
   return (
     <div>
       <FeaturedItem />
       <Chart data={userData} />
-      <WidgetSmall />
+      <div className="homeWidgets">
+        <WidgetSmall />
+        <WidgetLarge />
+      </div>
     </div>
   )
 }
