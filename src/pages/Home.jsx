@@ -7,7 +7,7 @@ import WidgetLarge from "../components/WidgetLarge";
 
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <FeaturedItem />
       <Chart data={userData} />
       <div className="homeWidgets">
