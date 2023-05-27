@@ -41,7 +41,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">My Reports</h3>
           <ul className="sidebarList">
-            <Link to="/user" className="link">
+            <Link to="/users" className="link">
               <li className="sidebarListItem">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
