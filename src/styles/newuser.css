@@ -1,0 +1,75 @@
+.newUser {
+  flex: 3;
+}
+
+.newUserForm {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.newUserFormWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left,
+.right {
+  padding: 10px;
+}
+
+.newUserItem {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newUserItem>label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newUserItem>input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newUserGender>input {
+  margin-top: 15px;
+}
+
+.newUserGender>label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newUserSelect {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newUserButton {
+  width: 200px;
+  padding: 10px 10px;
+  margin-top: 30px;
+  font-weight: 600;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
